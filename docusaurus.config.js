@@ -9,7 +9,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Sipharmony Docs",
-  tagline: "Sipharmony help!",
+  tagline: "Documentation for Sipharmony",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -43,15 +43,13 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/AlanGreyjoy/sipharmony-docs/tree/main",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/AlanGreyjoy/sipharmony-docs/tree/main",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -66,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "Sipharmony Docs",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",

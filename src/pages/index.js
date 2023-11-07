@@ -1,43 +1,56 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import clsx from 'clsx'
+import Link from '@docusaurus/Link'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import Layout from '@theme/Layout'
+import HomepageFeatures from '@site/src/components/HomepageFeatures'
 
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
+import '@fontsource/roboto/300.css'
+import '@fontsource/roboto/400.css'
+import '@fontsource/roboto/500.css'
+import '@fontsource/roboto/700.css'
+
+import Heading from '@theme/Heading'
+import styles from './index.module.css'
+import { Box, Button, Grid, Typography } from '@mui/material'
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext()
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
+    <Grid container spacing={6} alignItems={'center'} justifyContent={'center'} height={'calc(100vh - 50px)'}>
+      <Grid item xs={6}>
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: 1,
+            textAlign: 'center',
+          }}
+        >
+          <Typography variant="h2">{siteConfig.title}</Typography>
+          <Typography variant="h6">{siteConfig.tagline}</Typography>
+          <Box
+            sx={{
+              mt: 2,
+            }}
+          >
+            <Button color="primary" size="large" href="/docs/intro">
+              Get Started
+            </Button>
+          </Box>
+        </Box>
+      </Grid>
+    </Grid>
+  )
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext()
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
       </main>
     </Layout>
-  );
+  )
 }
