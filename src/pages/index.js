@@ -33,7 +33,7 @@ function HomepageHeader() {
               mt: 2,
             }}
           >
-            <Button color="primary" size="large" href="/docs/intro">
+            <Button color="primary" size="large" href="/docs/getting-started">
               Get Started
             </Button>
           </Box>
