@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer'
 const config = {
   title: 'Sipharmony Docs',
   tagline: 'Documentation for Sipharmony',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/mazeIcon.png',
 
   // Set the production url of your site here
   url: 'https://help.sipharmony.com',
@@ -67,18 +67,18 @@ const config = {
         title: 'Sipharmony Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/mazeIcon.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Guides',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/AlanGreyjoy/sipharmony-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -91,8 +91,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Guides',
+                to: '/docs/getting-started',
               },
             ],
           },

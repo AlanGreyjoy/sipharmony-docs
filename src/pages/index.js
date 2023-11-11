@@ -16,7 +16,7 @@ import { Box, Button, Grid, Typography } from '@mui/material'
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <Grid container spacing={6} alignItems={'center'} justifyContent={'center'} height={'calc(100vh - 50px)'}>
+    <Grid container spacing={6} alignItems={'center'} justifyContent={'center'} height={'calc(100vh)'}>
       <Grid item xs={6}>
         <Box
           sx={{
@@ -46,11 +46,9 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
+    <Layout title={`Hello from ${siteConfig.title}`} description="Help documentation for the Sipharmony platform">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      <main>{/* <HomepageFeatures /> */}</main>
     </Layout>
   )
 }
