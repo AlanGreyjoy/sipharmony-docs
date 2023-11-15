@@ -11,7 +11,7 @@ import '@fontsource/roboto/700.css'
 
 import Heading from '@theme/Heading'
 import styles from './index.module.css'
-import { Box, Button, Grid, Typography } from '@mui/material'
+import { Alert, Box, Button, Grid, Typography } from '@mui/material'
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
@@ -37,6 +37,18 @@ function HomepageHeader() {
               Get Started
             </Button>
           </Box>
+
+          <Alert severity="info" sx={{ mt: 2, width: 500, marginLeft: 'auto', marginRight: 'auto' }}>
+            This is a constant work in progress. If you need help, please reach out to us on{' '}
+            <Link
+              href="https://discord.com/invite/H4sbDsd7Yp"
+              target="_blank"
+              style={{ fontSize: 18, fontWeight: 800 }}
+            >
+              Discord
+            </Link>{' '}
+            for immediate assistance.
+          </Alert>
         </Box>
       </Grid>
     </Grid>
