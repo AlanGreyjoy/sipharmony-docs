@@ -1,0 +1,8 @@
+{
+  "label": "Recordings",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "You can create recordings that can be used in your IVR or in your call flows. You can also upload your own recordings."
+  }
+}

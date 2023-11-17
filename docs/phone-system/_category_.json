@@ -1,0 +1,8 @@
+{
+  "label": "Phone System",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn different ways to manage your system."
+  }
+}

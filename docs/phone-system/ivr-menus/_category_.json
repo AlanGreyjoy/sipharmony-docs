@@ -1,0 +1,8 @@
+{
+  "label": "IVR Menus",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn different ways to manage your system."
+  }
+}
