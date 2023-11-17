@@ -1,0 +1,8 @@
+{
+  "label": "Integrations",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Sipharmony integrates with various third-party services. If we don't have an integration you need, please let us know!"
+  }
+}
