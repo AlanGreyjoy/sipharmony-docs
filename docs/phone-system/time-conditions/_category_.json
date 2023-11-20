@@ -1,0 +1,8 @@
+{
+  "label": "Time Conditions",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Create holiday schedules and time conditions to control when calls are routed."
+  }
+}
