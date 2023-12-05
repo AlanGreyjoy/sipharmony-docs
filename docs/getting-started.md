@@ -41,17 +41,17 @@ We are not affiliated with Zoiper in any way. We just think it is a great softph
 
 Currently, unlimited customers have access to the Sipharmony mobile and desktop apps. Although, new unlimited customers will not be added. This is because Ringotel charges us per user. So making this available to pay-as-you-go customers just isn't possible.
 
-Another huge reason is Sipharmony SMS/MMS and Ringotel SMS/MMS are not compatible. This means that if you send an SMS/MMS from the Sipharmony mobile app, it will not show up in the Sipharmony Web App. This is a huge problem for us and our customers.
+Another huge reason is Sipharmony SMS/MMS and Ringotel SMS/MMS are not compatible. This means that if you send an SMS/MMS from the Sipharmony mobile app, it will not show up in the Sipharmony Web App.
 
-Lastly, complete system control. There is no way to add our own features to the Ringotel apps. We are limited to what they offer. This is not good for us or our customers.
+Lastly, complete system control. There is no way to add our own features to the Ringotel apps. We are limited to what they offer. We want our customers to be able to make adjustments to their phone system from a mobile app, not just the webapp.
 
 However, we are working on our own mobile and desktop apps. Once these are ready, we will make them available to all customers free of charge!!
 :::
 
-:::info
+:::success
 **SMS/MMS Zoiper:**
 
-Zoiper does not support "carrier" SMS/MMS. However, it does support "SIP SIMPLE" SMS. This was only recently discovered by one of our customers that loves to test and push our systems limits! We are currently working on a way to make this work with Sipharmony. We will update this documentation once we have a solution.
+Zoiper does not support "carrier" SMS/MMS. However, it does support "SIP SIMPLE" SMS. We have rolled out an update that will allow you to use SMS with Zoiper, Bria, and even Microsip!
 :::
 
 ## Webphone
