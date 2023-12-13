@@ -1,0 +1,8 @@
+{
+  "label": "Softphones",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "You can register different softphones to your account. This allows you to make and receive calls from your computer or mobile device."
+  }
+}
